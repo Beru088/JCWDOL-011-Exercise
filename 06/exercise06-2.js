@@ -41,7 +41,6 @@ class Transaction {
         }
         this.total += totalPrice
         this.cart.push(itemOrder)
-        let adaBarang = "ada"
       }
     }
   }
