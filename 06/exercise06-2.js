@@ -41,8 +41,10 @@ class Transaction {
         }
         this.total += totalPrice
         this.cart.push(itemOrder)
+        return
       }
     }
+    console.log("Maaf barang yang anda cari tidak ada atau sudah habis!")
   }
 
   showTotal() {
@@ -78,7 +80,7 @@ console.log(transaction1.checkOutMethod())
 // ------------Melakukan Transaksi kedua--------------
 
 let transaction2 = new Transaction()
-transaction2.addToCart("Razer Deathadder V3 Pro", 12)
+transaction2.addToCart("Razer Deathadder V2 Pro", 12)
 console.log(transaction2.showTotal())
 
 console.log(transaction2.checkOutMethod())
