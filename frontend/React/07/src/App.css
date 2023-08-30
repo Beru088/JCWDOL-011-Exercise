@@ -1,0 +1,90 @@
+.soal1 {
+  background-color: #ebebeb;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 16px;
+}
+
+.soal1 h1 {
+  font-size: 64px;
+  width: 80px;
+  text-align: center;
+}
+
+.soal1 button {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.soal2 {
+  background-color: black;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.soal2 p {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  margin: 0 auto 16px auto;
+}
+
+.soal2 .buttonSoal2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.soal2 .buttonSoal2 button {
+  font-size: 32px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.soal3 {
+  font-size: 36px;
+  height: 90vh;
+  margin-top: -40px;
+  text-align: center;
+}
+
+.soal3 input {
+  font-size: 36px;
+  width: 300px;
+  border-radius: 12px;
+  margin: 60px auto;
+}
+
+.soal3 ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.soal3 li {
+  line-height: 80px;
+}
+
+.soal4 {
+  text-align: center;
+}
+
+.soal4 table {
+  margin: 0 auto;
+}
+
+.soal4 table tr th {
+  background-color: black;
+  color: white;
+}
+
+.soal4 table tr td:nth-child(odd) {
+  background-color: #ebebeb;
+}
