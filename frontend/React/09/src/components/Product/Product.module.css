@@ -1,0 +1,32 @@
+.content {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+  overflow: hidden;
+  background-color: #ebebeb;
+  width: 400px;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.container img {
+  height: 200px;
+  object-fit: contain;
+}
+
+.box {
+  margin: 0;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+h2,
+h3 {
+  color: black;
+}
