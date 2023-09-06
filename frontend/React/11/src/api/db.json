@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "mikhail",
+      "email": "mikhail@gmail.com",
+      "password": "Mikhail123!"
+    },
+    {
+      "id": 2,
+      "name": "william",
+      "email": "william@gmail.com",
+      "password": "William123!"
+    },
+    {
+      "name": "alexander",
+      "email": "alexander@gmail.com",
+      "password": "Alexander123!",
+      "id": 3
+    },
+    {
+      "name": "nickholas",
+      "email": "nickholas@gmail.com",
+      "password": "Nickholas123!",
+      "id": 4
+    },
+    {
+      "name": "denzel",
+      "email": "denzel@gmail.com",
+      "password": "Denzel1231!",
+      "id": 5
+    },
+    {
+      "name": "andrean",
+      "email": "andrean@gmail.com",
+      "password": "Andrean123!",
+      "id": 6
+    }
+  ],
+  "tweets": []
+}
